@@ -2,7 +2,7 @@
 %global zstd_version 1.4.5
 
 Name:           python-zstd
-Version:        1.5.0.2
+Version:        1.5.5.1
 Release:        0
 Summary:        Zstd Bindings for Python
 
