@@ -2,12 +2,11 @@
 %global zstd_version 1.4.5
 
 Name:           python-zstd
-Version:        1.5.0.2
+Version:        1.5.6.0
 Release:        0
 Summary:        Zstd Bindings for Python
-
 License:        BSD
-URL:            https://github.com/sergey-dryabzhinsky/python-zstd
+URL:            https://github.com/sailfishos/python-zstd
 Source:         python-zstd-%{version}.tar.bz2
 
 BuildRequires:  gcc
@@ -26,7 +25,6 @@ Requires:       libzstd%{?_isa} >= %{zstd_version}
 
 %description -n python3-zstd
 Simple Python bindings for the Zstd compression library.
-
 
 %prep
 %autosetup -p1 -n %{name}-%{version}/%{name}
